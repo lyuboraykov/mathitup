@@ -1,0 +1,4 @@
+<div id="expression">{{expression.infixTask}}</div>
+<div data-ng-repeat="answer in expression.answers">
+<input type="button" name="Answer" value="{{answer}}" data-ng-click="selectAnswer(answer)">
+</div>
